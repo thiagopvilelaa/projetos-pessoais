@@ -1,0 +1,277 @@
+:root{
+    --verde:#8eea8e;
+    --cinza:#333333;
+    --cinza-claro:#606060;
+}
+
+body{
+    margin:0;
+    height:100vh;
+    background-color: rgb(242,242,242);
+}
+
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+
+#header{
+    width:100%;
+    height:6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerLogo{
+    display: flex;
+    align-items: center;
+    gap:.5rem;
+    font-size:2rem;
+    margin-left: 17.5rem;
+    font-family: sans-serif;
+    fill:var(--verde);
+    color:var(--cinza);
+    font-weight:bold;
+}
+
+#headerNav{
+    margin-right:13rem;
+    display:flex;
+    gap:3rem;
+}
+
+.headerLink{
+    display: flex;
+    align-items: center;
+    text-decoration:none;
+    font-size:1.25rem;
+    font-family: sans-serif;
+    color:var(--cinza);
+    transition:.3s;
+}
+
+/*HERO*/
+/*HERO*/
+/*HERO*/
+/*HERO*/
+/*HERO*/
+/*HERO*/
+
+#hero{
+    width:100%;
+    height:calc(100% - 6rem);
+    display: flex;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+#heroLeft, #heroRight{
+    width:50%;
+    height:100%;
+}
+
+#heroLeft{
+    display: flex;
+    flex-direction: column;
+}
+
+#heroLeftTitle{
+    margin:8rem 0 0 17.5rem;
+    font-size:4rem;
+    color: var(--cinza);
+}
+
+#heroLeftTitle span{
+    color:var(--verde);
+}
+
+#heroLeftSubtitle{
+    text-align:justify;
+    margin:1rem 0 0 17.5rem;
+    font-weight:500;
+    color:var(--cinza-claro);
+}
+
+#heroLeftBtn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    margin:2rem 0 0 17.5rem;
+    color:var(--cinza);
+    fill:var(--cinza);
+    background-color: var(--verde);
+    border: none;
+    border-radius:6px;
+    padding:0rem 1rem;
+    cursor: pointer;
+    transition:.3s;
+}
+
+#heroLeftBtn p{
+    font-size:1.4rem;
+    font-weight:bold;
+    
+}
+
+#heroRight{
+    height:calc(100% - 5rem);
+    display: flex;
+    margin:5rem 0 0 4rem;
+}
+
+#heroRight img{
+    width:40rem;
+    height:40rem;
+}
+
+#cards{
+    width:100%;
+    height:fit-content;
+    padding-bottom:5rem;
+    display: flex;
+    justify-content:center;
+    gap:3rem;
+}
+
+.card{
+    background-color: transparent;
+}
+
+#card1,#card2{
+    width:35rem;
+    height:50rem;
+    border-radius:10px;
+    overflow: hidden;
+    margin-top:2rem;
+    transition:.35s;
+}
+
+#cardLink1{
+    background-color: var(--verde);
+}
+
+#cardLink2{
+    background-color: rgb(250, 237, 121);
+}
+
+.cardLink{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:var(--cinza);
+    transition:.35s;
+}
+
+.cardSubtitle{
+    margin:3rem 0 0 0;
+    text-align: center;
+    color: var(--cinza-claro);
+}
+
+.cardTitle{
+    margin:2rem 0 0 0;
+    font-size:2.2rem;
+    text-align: center;
+}
+
+.cardLink img{
+    margin:1rem 0 0 0;
+    width:25rem;
+}
+
+#card2Img{
+    width:30rem;
+    margin:2rem 0 1.75rem 0;
+}
+
+.cardBtnContainer{
+    width:25rem;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.cardBtnContainer p{
+    padding:1rem 1.25rem;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:6px;
+}
+
+#bots{
+    padding:1rem 3rem;
+}
+
+#servicos{
+    padding:1rem 2.25rem;
+}
+
+#footer{
+    width:100%;
+    height:20rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    fill:var(--verde);
+    font-family: sans-serif;
+}
+
+#footerLogo{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    font-size:2rem;
+}
+
+#footerUp{
+    background-color: transparent;
+    border:none;
+    position: absolute;
+    left:5%;
+    bottom:8%;
+    cursor: pointer;
+    transition:.3s;
+}
+
+#footerUp svg{
+    transform: rotate(180deg);
+}
+
+#footerSocial{
+    width:20rem;
+    height:5rem;
+    display: flex;
+    gap:1rem;
+    position: absolute;
+    right:0%;
+    bottom:5%;
+}
+
+.footerSocialLink{
+    width:2.25rem;
+    height:2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill:white;
+    background-color: rgb(32, 32, 32);
+    padding:.25rem;
+    border-radius:6px;
+    transition:.35s;
+}
+
+.footerSocialLink svg{
+    width:1.7rem;
+    height:1.7rem;
+}

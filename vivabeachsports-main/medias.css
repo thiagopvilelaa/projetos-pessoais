@@ -1,0 +1,1045 @@
+
+/*MENU RESPONSIVO*/
+/*MENU RESPONSIVO*/
+/*MENU RESPONSIVO*/
+/*MENU RESPONSIVO*/
+
+@media screen and (max-width:680px){
+    #menuResponsiveXContainer{
+        width:100%;
+        height:5rem;
+        display: flex;
+        justify-content: end;
+    }
+    
+    #menuResponsiveContainer{
+        gap:4rem;
+    }
+    
+    .menuResponsiveLinks{
+        font-size:1.5rem;
+    }
+    
+    #menuResponsiveBtn{
+        width:3rem;
+        height:3rem;
+    }
+}
+
+@media screen and (max-width:495px){
+    #menuResponsiveXContainer{
+        width:100%;
+        height:5rem;
+        display: flex;
+        justify-content: end;
+    }
+    
+    #menuResponsiveContainer{
+        gap:3.5rem;
+    }
+    
+    .menuResponsiveLinks{
+        font-size:1.2rem;
+    }
+    
+    #menuResponsiveBtn{
+        width:2.5rem;
+        height:2.5rem;
+        display: block;
+    }
+
+    #menuResponsiveBtn svg{
+        width:2rem;
+        height:2rem;
+    }
+}
+
+
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+
+@media screen and (max-width:1230px){
+    .navHeaderLink{
+        font-size:.9rem;
+    }
+
+    #headerLogo{
+        margin-top:0rem;
+    }
+
+    #navHeaderLinkInstagram{
+        width:1.3rem;
+        height:1.3rem;
+        margin-left:1rem;
+    }
+}
+
+@media screen and (max-width:1011px){
+    #navHeaderLinkInstagram{
+        display:none;
+    }
+}
+
+@media screen and (max-width:869px){   
+    #navHeader{
+        margin-right:1rem;
+    }
+}
+
+@media screen and (max-width:819px){   
+    #navHeader{
+        display:none;
+    }
+
+    #headerLogo{
+        margin:.5rem 3.5rem 0 0;
+    }
+
+    #headerLogoImg{
+        width:18rem;
+    }
+
+    #menuBtn{
+        display:block;
+    }
+
+    #menuResponsive{
+        display:block;
+    }
+}
+
+@media screen and (max-width:549px){   
+    #headerLogoImg{
+        width:15rem;
+    }
+
+    #headerLogo{
+        margin:.5rem .5rem 0 0;
+    }
+
+    #menuBtn{
+        width:3rem;
+        height:3rem;
+        top:2%;
+        right:3.5%;
+    }
+    
+    #menu{
+        width:2.5rem;
+        height:2.5rem;
+    }
+
+}
+
+@media screen and (max-width:430px){
+    #headerLogo{
+        margin:1.75rem .5rem 0 0;
+    }
+
+    #menuBtn{
+        width:3rem;
+        height:3rem;
+        top:3.75%;
+        right:3.5%;
+    }
+}
+
+@media screen and (max-width:371px){   
+    #headerLogoImg{
+        width:13rem;
+    }
+
+    #headerLogo{
+        margin:1.5rem 0 0 1.5rem;
+    }
+
+    #menuBtn{
+        width:2.5rem;
+        height:2.5rem;
+        top:3.75%;
+        right:4.5%;
+    }
+    
+    #menu{
+        width:2.2rem;
+        height:2.2rem;
+    }
+
+}
+
+/*HERO
+/*HERO
+/*HERO
+/*HERO*/
+
+@media screen and (max-width:1233px){
+    #heroHolderTitle{
+        font-size:2.5rem;
+    }
+    #heroHolderText{
+        font-size:1.68rem;
+    }
+
+    #heroHolderBtnContainer{
+        margin-top:2.75rem;
+    }
+}
+
+@media screen and (max-width:1037px){
+    #heroHolderTitle{
+        font-size:2.2rem;
+    }
+    #heroHolderText{
+        font-size:1.48rem;
+    }
+}
+
+@media screen and (max-width:890px){
+    #heroHolderTitle{
+        font-size:2rem;
+        text-align: center;
+    }
+    #heroHolderText{
+        font-size:1.35rem;
+    }
+
+    #heroHolderBtnContainer{
+        margin-top:2.5rem;
+    }
+    
+    .heroHolderBtn{
+        font-size:.75rem;
+    }
+}
+
+@media screen and (max-width:819px){
+    #heroHolderText{
+        font-size:1.1rem;
+    }
+
+    #quebraHero{
+        display: block;
+    }
+
+    #heroHolderBtnContainer{
+        margin-top:2rem;
+    }
+    
+    .heroHolderBtn{
+        font-size:.7rem;
+        padding:.75rem;
+    }
+}
+
+@media screen and (max-width:549px){
+    #heroHolderText{
+        font-size:.85rem;
+    }
+
+    #heroHolderTitle{
+        font-size:1.6rem;
+    }
+
+    #heroHolderBtnContainer{
+        margin-top:2rem;
+        gap:1rem;
+    }
+    
+    .heroHolderBtn{
+        font-size:.6rem;
+        padding:0rem .7rem;
+        border-radius:30px;
+    }
+}
+
+@media screen and (max-width:430px){
+    #heroHolderText{
+        font-size:.75rem;
+    }
+
+    #heroHolderTitle{
+        font-size:1.4rem;
+    }
+
+    #heroHolderBtnContainer{
+        margin-top:2rem;
+        gap:0rem;
+        height:10rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .heroHolderBtn{
+        font-size:.7rem;
+        padding:1rem;
+        border-radius:30px;
+        width: fit-content;
+    }
+
+    #heroHolderBtnPlanos {
+        padding:1rem 2.329rem;
+      }
+}
+
+/*BAIXE O APP*/
+/*BAIXE O APP*/
+/*BAIXE O APP*/
+
+
+@media screen and (max-width:1024px){
+    #baixeAPPTitle{
+        margin:4.5rem 0 0 2rem;
+        font-size:1.75rem;
+    }
+    
+    #baixeAPPText{
+        margin:2rem 0 0 2rem;
+        font-size:1.1rem;
+    }
+    
+    #baixeAPPSubTitle{
+        margin:3rem 0 2.5rem 2rem;
+        font-size:1.5rem;
+    }
+    
+    #baixeAPPImgContainer{
+        margin-left:4rem;
+        width:17rem;
+    }
+
+}
+
+@media screen and (max-width:876px){
+    #baixeAPPTitle{
+        margin:4.5rem 0 0 2rem;
+        font-size:1.75rem;
+    }
+    
+    #baixeAPPText{
+        margin:2rem 0 0 2rem;
+        font-size:1.1rem;
+    }
+    
+    #baixeAPPSubTitle{
+        margin:3rem 0 2.5rem 2rem;
+        font-size:1.5rem;
+    }
+    
+    #baixeAPPImgContainer{
+        margin-left:7rem;
+        width:17rem;
+    }
+
+}
+
+@media screen and (max-width:800px){
+    
+    #baixeAPPImgContainer{
+        width:14rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:55%;
+    }
+
+}
+
+@media screen and (max-width:770px){
+    
+    #baixeAPPImgContainer{
+        width:12rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:55%;
+    }
+
+    #baixeAPPTitle{
+        font-size:1.5rem;
+    }
+    
+    #baixeAPPText{
+        font-size:.9rem;
+    }
+    
+    #baixeAPPSubTitle{
+        font-size:1.25rem;
+    }
+
+    #baixeAPPLink{
+        width:8rem;
+        height:2.4rem;
+    }
+    
+    #baixeAPPLink img{
+        width:100%;
+        margin-bottom:2rem;
+    }
+
+}
+
+@media screen and (max-width:770px){
+    
+    #baixeAPPImgContainer{
+        margin-left:10rem;
+        width:12rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:55%;
+    }
+
+
+}
+
+@media screen and (max-width:677px){
+    
+    #baixeAPPImgContainer{
+        margin-left:14rem;
+        width:10rem;
+        height:17rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:48%;
+    }
+
+
+}
+
+@media screen and (max-width:532px){
+    
+    #baixeAPPImgContainer{
+        margin-left:16.5rem;
+        width:10rem;
+        height:17rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:48%;
+    }
+
+    #baixeAPPTitle{
+        font-size:1.2rem;
+    }
+    
+    #baixeAPPText{
+        font-size:.7rem;
+        margin-top:1rem;
+    }
+    
+    #baixeAPPSubTitle{
+        font-size:1rem;
+        margin-top:1rem;
+    }
+
+    #baixeAPPLink{
+        width:7rem;
+        height:2rem;
+        margin-top:0rem;
+    }
+    
+    #baixeAPPLink img{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:448px){
+    
+    #baixeAPPImgContainer{
+        margin-left:17rem;
+        width:9rem;
+        height:14rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:40%;
+    }
+
+    #baixeAPPTitle{
+        margin-left:.5rem;
+        margin-top:4rem;
+    }
+
+    #baixeAPPText{
+        margin-left:.5rem;
+    }
+
+    #baixeAPPSubTitle{
+        margin-left:.5rem;
+        margin-bottom:1rem;
+    }
+
+    #baixeAPPLink{
+        margin-left:.5rem;
+    }
+
+}
+
+@media screen and (max-width:426px){
+    
+    #baixeAPPImgContainer{
+        margin-left:20rem;
+        width:9rem;
+        height:14rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:40%;
+    }
+
+    #baixeAPPTitle{
+        margin-left:.5rem;
+        margin-top:4rem;
+        font-size:.85rem;
+    }
+
+    #baixeAPPText{
+        margin-left:.5rem;
+        font-size:.65rem;
+    }
+
+    #baixeAPPSubTitle{
+        margin-left:.5rem;
+        margin-bottom:1rem;
+        font-size:.75rem;
+    }
+
+    #baixeAPPLink{
+        margin-left:.5rem;
+        width:6rem;
+        height:1.7rem;
+        margin-top:0rem;
+    }
+
+}
+
+@media screen and (max-width:364px){
+    
+    #baixeAPPImgContainer{
+        margin-left:22rem;
+        width:7rem;
+        height:11rem;
+    }
+
+    #baixeAPP{
+        width:100%;
+        height:40%;
+    }
+
+    #baixeAPPTitle{
+        margin-left:.5rem;
+        margin-top:5rem;
+        font-size:.7rem;
+    }
+
+    #baixeAPPText{
+        margin-left:.5rem;
+        font-size:.6rem;
+    }
+
+    #baixeAPPSubTitle{
+        margin-left:.5rem;
+        margin-bottom:1rem;
+        font-size:.65rem;
+    }
+
+    #baixeAPPLink{
+        margin-left:.5rem;
+        width:5rem;
+        height:1.4rem;
+        margin-top:0rem;
+    }
+
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+@media screen and (max-width:1067px){
+    #footerFooterText{
+        margin:.75rem 0 0 1rem;
+        font-size:1rem;
+    }
+
+    .footerSocialLink{
+        width:1.65rem;
+        height:1.65rem;
+    }
+    
+    .footerSocialLink svg{
+        width:1.65rem;
+        height:1.65rem;
+    }
+
+    #footerContainerSocial{
+        height:2.5rem;
+    }
+}
+
+@media screen and (max-width:910px){
+    #footerFooterText{
+        margin:.75rem 0 0 1rem;
+        font-size:.85rem;
+    }
+
+    .footerSocialLink{
+        width:1.4rem;
+        height:1.4rem;
+    }
+    
+    .footerSocialLink svg{
+        width:1.4rem;
+        height:1.4rem;
+    }
+
+    #footerContainerSocial{
+        height:2.2rem;
+    }
+}
+
+@media screen and (max-width:770px){
+    #footerFooterText{
+        margin:.75rem 0 0 1rem;
+        font-size:.75rem;
+    }
+
+    .footerSocialLink{
+        width:1.2rem;
+        height:1.2rem;
+    }
+    
+    .footerSocialLink svg{
+        width:1.2rem;
+        height:1.2rem;
+    }
+
+    #footerContainerSocial{
+        height:2rem;
+    }
+}
+
+@media screen and (max-width:652px){
+    #footerFooterText{
+        margin:.75rem 0 0 1rem;
+        font-size:.7rem;
+    }
+
+    .footerSocialLink{
+        width:1rem;
+        height:1rem;
+    }
+    
+    .footerSocialLink svg{
+        width:1rem;
+        height:1rem;
+    }
+
+    #footerContainerSocial{
+        height:2rem;
+        width:3.1rem;
+    }
+}
+
+
+
+@media screen and (max-width:890px){
+    .footerContainerBoxText{
+        font-size:.85rem;
+    }
+
+    #footerLogo{
+        width:12rem;
+    }
+
+    #footerContainerBoxRightTitle{
+        font-size:.85rem;
+    }
+
+    #footerContainerBoxRightText{
+        font-size:.85rem;
+    }
+
+    #footerContainerBoxLeft{
+        height: 100%;
+        width:16rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 100%;
+        width:12rem;
+    }
+}
+
+@media screen and (max-width:710px){
+    .footerContainerBoxText{
+        font-size:.75rem;
+    }
+
+    #footerLogo{
+        width:11rem;
+    }
+
+    #footerContainerBoxRightTitle{
+        font-size:.75rem;
+    }
+
+    #footerContainerBoxRightText{
+        font-size:.75rem;
+    }
+
+    #footerContainerBoxLeft{
+        height: 100%;
+        width:13rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 100%;
+        width:9.75rem;
+    }
+}
+
+@media screen and (max-width:578px){
+    .footerContainerBoxText{
+        font-size:.65rem;
+    }
+
+    #footerLogo{
+        width:10rem;
+    }
+
+    #footerContainerBoxRightTitle{
+        font-size:.75rem;
+    }
+
+    #footerContainerBoxRightText{
+        font-size:.75rem;
+    }
+
+    #footerContainerBoxLeft{
+        height: 100%;
+        width:10rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 100%;
+        width:10rem;
+    }
+
+    .footerContainerBoxText{
+        margin-bottom:.7rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:508px){
+    #footerFooter{
+        width:83%;
+    }
+}
+
+@media screen and (max-width:438px){
+    #footerFooter{
+        width:90%;
+    }
+
+    #footerContainer{
+        justify-content:center;
+
+    }
+}
+
+@media screen and (max-width:350px){
+    .footerContainerBoxText{
+        font-size:.5rem;
+    }
+
+    #footerLogo{
+        width:8.5rem;
+    }
+
+    #footerContainerBoxRightTitle{
+        font-size:.6rem;
+    }
+
+    #footerContainerBoxRightText{
+        font-size:.55rem;
+    }
+
+    #footerContainerBoxLeft{
+        height: 100%;
+        width:10rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 100%;
+        width:10rem;
+    }
+
+    .footerContainerBoxText{
+        margin-bottom:.7rem;
+    }
+
+    #footerContainerBoxRight{
+        height: 80%;
+    }
+}
+
+
+/*PLANOS */
+/*PLANOS */
+/*PLANOS */
+/*PLANOS */
+
+@media screen and (max-width:1500px){
+        .planoCard{
+            width:20rem;
+            height:100%;
+            box-shadow: inset 0 0 0 2.5px var(--roxo);
+            border-radius:10px;
+            transition:.5s;
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            flex-direction: column;
+        }
+
+        .planoCardTitle{
+            font-size:1.5rem;
+        }
+        
+        .planoCardPrice{
+            font-size:3.42rem;
+        }
+        
+        .planoCardPrice span{
+            font-size:.0.857rem;
+        }
+        
+        .perMonth{
+            font-size:1.285rem;
+        }
+        
+        .planoCardBtn{
+            font-size:.857rem;
+            padding:1.285rem 5rem;
+        }
+        .planoCardParcela{
+            margin-top:1.285rem;
+            font-size:1rem;
+        }
+        
+        .planoCardFooter{
+            margin-top:1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap:3rem;
+            border-top:1.5px solid rgba(179, 179, 179, 0.699);
+            width:99%;
+        }
+        
+        .planoCardFooterTitle{
+            margin-top:1rem;
+            font-size:1rem;
+        }
+
+        .planoContainerWrapper{
+            width:120rem;
+            height:100%;
+            display: flex;
+            justify-content: space-between;
+            transition:.4s;
+            gap:2rem;
+        }
+
+        #planoContainerWrapper3{
+            width:160.5rem;
+        }
+
+        #planoContainerHolder{
+            width:60rem;
+            height:40rem;
+            display: flex;
+            overflow:hidden;
+        }
+
+}
+
+@media screen and (max-width:1170px){
+    #planoContainerContainer{
+        display:none;
+    }
+
+    #planoContainerContainerResponsive1{
+        display: flex;
+        margin-top:2rem;
+    }
+
+    #planosBtnContainer{
+        display:none;
+    }
+
+    #planosBtnContainerResponsive{
+        display: flex;
+    }
+}
+
+@media screen and (max-width:885px){
+    .planoCardResponsive{
+        width:21.1rem;
+        height:35rem;
+    }
+
+    .planoCardTitleResponsive{
+        margin-top:3.5rem;
+        font-weight:500;
+        font-size:1.532rem;
+    }
+    
+    .planoCardPriceResponsive{
+        margin-top:1.75rem;
+        font-size:3.5rem;
+    }
+    
+    .planoCardPriceResponsive span{
+        font-size:.875rem;
+    }
+    
+    .perMonthResponsive{
+        font-size:1.31rem;
+    }
+    
+    .planoCardBtnResponsive{
+        margin-top:1.41rem;
+        font-size:.875rem;
+        padding:1.31rem 6.125rem;
+    }
+
+    .planoCardParcelaResponsive{
+        margin-top:1.31rem;
+        font-size:.88rem;
+    }
+    
+    .planoCardFooterResponsive{
+        margin-top:.875rem;
+        gap:1.41rem;
+        width:99%;
+    }
+    
+    .planoCardFooterTitleResponsive{
+        margin-top:.875rem;
+        font-size:.875rem;
+    }
+    
+    .planoCardFooterBtnResponsive{
+        font-size:.8rem;
+    }
+}
+
+@media screen and (max-width:707.9px){
+    #planosBtnContainerResponsive{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .planosBtnResponsive{
+        width:15rem;
+    }
+    
+    
+    #planoBtn1Responsive{
+        padding:1.5rem 3rem;
+        background-color:#920092;
+        color:white;
+    }
+    
+    #planoBtn2Responsive{
+        padding:1.5rem 3.85rem;
+    }
+    
+    #planoBtn3Responsive{
+        padding:1.5rem 1rem;
+    }
+}
+
+@media screen and (max-width:480px){
+
+    #planosTitle{
+        font-size:2rem;
+    }
+    
+    #planosText{
+        font-size:1.25rem;
+    }
+
+    .planosBtnResponsive{
+        width:12rem;
+        font-size:.8rem;
+    }
+
+
+    .planoCardResponsive{
+        width:17.1rem;
+        height:28.35rem;
+    }
+ 
+    .planoCardTitleResponsive{
+        margin-top:2.835rem;
+        font-size:1.240rem;
+    }
+    
+    .planoCardPriceResponsive{
+        margin-top:1.41rem;
+        font-size:2.835rem;
+    }
+    
+    .planoCardPriceResponsive span{
+        font-size:.7rem;
+    }
+    
+    .perMonthResponsive{
+        font-size:1.06rem;
+    }
+    
+    .planoCardBtnResponsive{
+        margin-top:1.41rem;
+        font-size:.875rem;
+        padding:1.06rem 4.96rem;
+    }
+
+    .planoCardParcelaResponsive{
+        margin-top:1.31rem;
+        font-size:1.09rem;
+    }
+    
+    .planoCardFooterResponsive{
+        margin-top:.875rem;
+        gap:1.41rem;
+        width:99%;
+    }
+    
+    .planoCardFooterTitleResponsive{
+        margin-top:.7rem;
+        font-size:.7rem;
+    }
+    
+    .planoCardFooterBtnResponsive{
+        font-size:.9rem;
+    }
+}

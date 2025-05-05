@@ -1,0 +1,40 @@
+:root{
+    --verde:#8eea8e;
+    --cinza:#333333;
+    --cinza-claro:#606060;
+}
+
+.headerLink:hover, .headerNav:hover{
+    color: var(--verde);
+    fill:var(--verde);
+}
+
+#heroLeftBtn:hover{
+    background-color:var(--cinza);
+    color:var(--verde);
+    fill:var(--verde);
+}
+
+.card:hover{
+    background-color: black;
+    transform: scale(1.05);
+}
+
+.cardLink:hover{
+    opacity:.9;
+}
+
+#footerUp:hover{
+    fill:white;
+}
+
+.footerSocialLink:hover{
+    width:2.25rem;
+    height:2.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:var(--verde);
+    padding:.25rem;
+    border-radius:6px;
+}
