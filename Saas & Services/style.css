@@ -1,5 +1,5 @@
 :root{
-    --verde:#8eea8e;
+    --vermelho:#ea8e8e;
     --cinza:#333333;
     --cinza-claro:#606060;
 }
@@ -31,7 +31,7 @@ body{
     font-size:2rem;
     margin-left: 17.5rem;
     font-family: sans-serif;
-    fill:var(--verde);
+    fill:var(--vermelho);
     color:var(--cinza);
     font-weight:bold;
 }
@@ -84,7 +84,7 @@ body{
 }
 
 #heroLeftTitle span{
-    color:var(--verde);
+    color:var(--vermelho);
 }
 
 #heroLeftSubtitle{
@@ -101,7 +101,7 @@ body{
     margin:2rem 0 0 17.5rem;
     color:var(--cinza);
     fill:var(--cinza);
-    background-color: var(--verde);
+    background-color: var(--vermelho);
     border: none;
     border-radius:6px;
     padding:0rem 1rem;
@@ -149,7 +149,7 @@ body{
 }
 
 #cardLink1{
-    background-color: var(--verde);
+    background-color: var(--vermelho);
 }
 
 #cardLink2{
@@ -223,7 +223,7 @@ body{
     justify-content: center;
     background-color: black;
     color:white;
-    fill:var(--verde);
+    fill:var(--vermelho);
     font-family: sans-serif;
 }
 
